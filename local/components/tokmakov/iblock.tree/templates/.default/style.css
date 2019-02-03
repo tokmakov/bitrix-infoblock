@@ -1,0 +1,9 @@
+/*
+ * Файл local/components/tokmakov/iblock.tree/templates/.default/style.css
+ */
+#iblock-section-tree > .section-level-2 {
+    margin-left: 20px;
+}
+#iblock-section-tree > .section-level-3 {
+    margin-left: 40px;
+}

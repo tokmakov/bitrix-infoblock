@@ -1,0 +1,65 @@
+/*
+ * Файл local/components/tokmakov/iblock.popular/templates/.default/style.css
+ */
+#iblock-root-sections {
+
+}
+    #iblock-root-sections > article {
+        border: 1px solid #d1d1d1;
+        padding: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 15px;
+        background: #f5f5f5;
+    }
+        #iblock-root-sections > article > h2 {
+            margin: -5px 0 5px 120px;
+        }
+        #iblock-root-sections > article > p {
+            margin: 5px 0 0 120px;
+        }
+        #iblock-root-sections > article > a > img {
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
+
+#iblock-popular-items {
+
+}
+    #iblock-popular-items > section {
+        border: 1px solid #d1d1d1;
+        padding: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 15px;
+        background: #f5f5f5;
+    }
+    #iblock-popular-items > section > h3 {
+        margin: 0 0 7px 0;
+        font-size: 18px;
+    }
+    #iblock-popular-items > section > article {
+        float: left;
+        width: 24%;
+        box-sizing: border-box;
+        border: 1px solid #d1d1d1;
+        padding: 10px;
+        border-radius: 10px;
+        background: #fff;
+        margin-right: 1.33333%;
+    }
+    #iblock-popular-items > section > article:last-child {
+        margin-right: 0;
+    }
+        #iblock-popular-items > section > article > h4 {
+            margin: 5px 0 5px 0;
+            font-size: 14px;
+            min-height: 30px;
+            line-height: 15px;
+        }
+        #iblock-popular-items > section > article > p {
+            margin: 0;
+            font-size: 12px;
+            color: #999;
+        }

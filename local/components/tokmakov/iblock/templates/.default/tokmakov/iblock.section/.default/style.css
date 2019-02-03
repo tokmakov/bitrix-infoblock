@@ -1,0 +1,62 @@
+#iblock-element-0, #iblock-element-1, #iblock-element-2 {
+    min-height: 128px;
+}
+
+#iblock-child-sections {
+
+}
+    #iblock-child-sections > article {
+        border: 1px solid #d1d1d1;
+        padding: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 15px;
+        background: #f5f5f5;
+    }
+        #iblock-child-sections > article > h2 {
+            margin: -5px 0 5px 120px !important;
+        }
+        #iblock-child-sections > article > p {
+            margin: 5px 0 0 120px !important;
+        }
+        #iblock-child-sections > article > a > img {
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
+
+#iblock-section-items {
+    margin-top: 20px;
+}
+    #iblock-section-items > section {
+        
+    }
+        #iblock-section-items > section > article {
+            border-bottom: 1px dashed #395985;
+            padding: 15px 0 15px 0;
+            overflow: hidden;
+        }
+        #iblock-section-items > section > article:first-child {
+            border-top: 1px dashed #395985;
+        }
+            #iblock-section-items > section > article > a > img {
+                width: 140px;
+                height: 140px;
+                float: left;
+            }
+                #iblock-section-items > section > article > h3 {
+                    margin-top: 0;
+                }
+                #iblock-section-items > section > article > p {
+
+                }
+                #iblock-section-items > section > article > span {
+                    display: block;
+                    font-size: 12px;
+                    color: #999;
+                }
+                #iblock-section-items > section > article > h3,
+                #iblock-section-items > section > article > p,
+                #iblock-section-items > section > article > span {
+                    margin-left: 150px;
+                }

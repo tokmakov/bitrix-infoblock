@@ -1,0 +1,35 @@
+/*
+ * Файл local/components/tokmakov/iblock.random/templates/.default/style.css
+ */
+#iblock-random-items {
+    overflow: hidden;
+    margin: 15px 0;
+    background: #f5f5f5;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    padding: 10px;
+}
+    #iblock-random-items > article {
+        float: left;
+        width: 24%;
+        box-sizing: border-box;
+        border: 1px solid #d1d1d1;
+        padding: 10px;
+        border-radius: 10px;
+        background: #fff;
+        margin-right: 1.33333%;
+    }
+    #iblock-random-items > article:last-child {
+        margin-right: 0;
+    }
+        #iblock-random-items > article > h4 {
+            margin: 5px 0 5px 0;
+            font-size: 14px;
+            min-height: 30px;
+            line-height: 15px;
+        }
+        #iblock-random-items > article > p {
+            margin: 0;
+            font-size: 12px;
+            color: #999;
+        }
